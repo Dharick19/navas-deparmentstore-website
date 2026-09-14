@@ -1,0 +1,477 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Thambi+2:wght@400..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Doppio+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caacupe+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Slabo+13px&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Slabo+13px&display=swap');
+
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    margin-top: 80px;
+    background-color: whitesmoke;
+    /* background-image: url("https://i.pinimg.com/736x/b4/c3/5f/b4c35f3ef9422141bbcc96225cff89fc.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+     */
+
+    
+}
+nav{
+    
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    display: flex;
+    
+    height: 70px;
+    width: 100%;
+    background-color: green;
+    z-index: 1000;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    width: 65vw;
+    padding: 20px;
+  
+    gap: 10px;
+}
+.logo_img{
+
+    position: relative;
+    left: 0px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+h1{
+    color: gold;
+    font-family: "Baloo Thambi 2", system-ui;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+}
+.search{
+    display: flex;
+    align-items: center;
+}
+  .search-bar {
+    position: relative;
+    top: 0;
+    left: 50px;
+            width: 300px;
+            padding: 10px;
+            background-color: transparent;
+            border: 1px solid aliceblue;
+            border-radius: 8px;
+            font-size: 16px;
+        }
+        input::placeholder {
+    color: white;
+}
+
+.nav-links{
+
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+ul li{
+    
+    list-style: none;
+    margin: 20px;
+}
+a{
+
+    color: white;
+    font-size: 18px;
+     font-family: "JetBrains Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+     padding: 5px;
+    text-decoration: none;
+    
+}
+i{
+    margin: 5px;
+}
+.dropdown{
+    display: none;
+    position: relative;
+    top: 100px;
+    height: 100%;
+    background-color: darkcyan;
+    opacity: 0.9;
+    border-radius: 15px;
+    color: blue;
+    margin-top: 150px;
+    padding: 3px;
+    transition: 2s;
+}
+.nav-links a:hover{
+
+    color: yellow;
+    background-color: transparent;
+    border-bottom: 2px solid yellowgreen;
+    text-shadow: 0 0 1px white; 
+    z-index: 1000;
+
+  
+    
+}
+  .dropdown {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    margin-top: 0;
+    height: auto;
+    width: 180px;
+    background-color: darkcyan;
+    border-radius: 10px;
+    padding: 5px;
+    z-index: 9999;
+}
+
+.nav-links > li {
+    position: relative;
+}
+
+.nav-links > li:hover > .dropdown {
+    display: block;
+}
+
+.Dash_img{
+
+    height: 500px;
+    width: 98vw;
+    margin: 0 auto;
+    
+    border: 0.5px solid white;
+    border-radius: 15px;
+
+    background-image: url('../Navas_store/images/supermarket-8656652_1280.jpg');
+    background-repeat: no-repeat;
+    background-position: cover;
+    background-size: cover;
+
+}
+.Dash_text{
+    
+    position: relative;
+    top: 90px;
+    left: 690px;
+
+    height: 100%;
+    width: 50%;
+
+   h2{ 
+    
+    color: green;
+    -webkit-text-stroke: 0.5px white;
+     font-size: 100px;
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: bolder;
+    font-style: normal;
+   }
+  
+   }
+   /* .order_now{
+
+     position: absolute;
+    left: 100px;
+    height: 200px;
+    width: 250px;
+    border: 1px solid green;
+    border-radius: 15px;
+
+    background-image: url("../Navas_store/images/order_now.jpg");
+    /* background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; 
+
+
+   }
+   .delivery_man{
+    
+    position: relative;
+    left: 400px;
+    height: 200px;
+    width: 250px;
+    border: 1px solid green;
+    border-radius: 15px;
+
+    background-image: url("../Navas_store/images/delivery_man.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+   }
+    */
+
+    .Dash_text2{
+        position: relative;
+        top: 20px;
+        height: 50%;
+        width: 100%;
+        
+    }
+    .delivery , .franchise{
+        
+
+        color:red;
+        background-color: yellow;
+        padding: 10px 15px;
+        border-radius: 15px;
+        margin: 40px ;
+
+          font-family: "Oswald", sans-serif;
+          font-optical-sizing: auto;
+          font-size: 17px;
+          font-weight: 500;
+          font-style: normal;
+
+          
+    }
+    .delivery:hover,
+    .franchise:hover {
+    color: white;
+    background-color: green;
+    border: 2px solid white;
+}
+.Dash_text2 {
+     color: transparent;
+    font-family: "Caacupe One", sans-serif;
+   font-size: 100px;
+  font-weight: 400;
+  font-style: normal;
+}
+.Main{
+
+      color: brown;
+    -webkit-text-stroke: 1px white;
+    font-family: "Caacupe One", sans-serif;
+   font-size: 100px;
+  font-weight: 400;
+  font-style: normal;
+    animation: discount 2s ease-in-out infinite;
+}
+@keyframes discount {
+    from {
+        opacity: 0;
+        transform: translateX(500px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+/* .Main:hover{
+
+    color: brown;
+    transition-duration: 2s;
+} */
+
+.vegtables{
+    height: 340px;
+    width: 95vw;
+    margin: auto;
+    overflow-x: auto;
+
+    border: 2px solid aliceblue;
+    border-radius: 10px;
+}
+
+h3{
+    color: brown;
+    font-size: 30px;
+    font-weight: bolder;
+    text-align: center;
+    margin: 10px;
+}
+.cards{
+    height: 100%;
+    width: 100%;
+    background-color: transparent;
+
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    padding: 20px;
+    margin: 0 auto;
+
+      overflow: auto;
+      scrollbar-width: none; 
+   
+  
+}
+.veg_card{
+    
+    position: relative;
+    height: 270px;
+    width: 390px;
+    background:linear-gradient(to top , pink , purple);
+    border: 0.5px solid black;
+    border-radius: 15px;
+    box-shadow: 0px 5px 10px black;
+    transition-duration: 1s;
+
+    flex: 0 0 200px;
+
+   animation: scroll 2s infinite linear alternate;
+   
+}
+@keyframes scroll{
+    from{
+
+        margin: 0;
+
+    }
+    to{
+        margin: 2px;
+
+    }
+}
+
+
+.veg_img{
+    height: 60%;
+    width: 100%;
+    border-radius: 15px;
+   border-bottom-left-radius: 0px;
+   border-bottom-right-radius: 0px;
+
+   
+}
+.veg_card:hover{
+    animation-play-state: paused;
+    box-shadow: 0px 5px 10px black;
+    transform: scale(1.2);
+
+}
+p {
+    text-align: center;
+    color: black;
+
+     font-family: "Roboto Mono", monospace;
+     font-optical-sizing: auto;
+     font-size: 18px;
+     font-weight: bold;
+     font-style: normal;
+}
+.price{
+    position:absolute;
+    top: 190px;
+    left: 40px;
+    color: red;
+    font-size: 20px;
+    
+    font-family: "Slabo 13px", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+strong{
+    color: yellow;
+     -webkit-text-stroke: 0.5px black;
+     font-size: 20px;
+    
+}
+button{
+    position:absolute;
+    top: 220px;
+    left: 50px;
+    padding: 5px;
+    color: green;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 15px;
+    
+   }
+   button:hover{
+    transform: scale(1.1);
+    color: black;
+    background-color: yellowgreen;
+   }
+.watercan{
+
+    height: 360px;
+    width: 85%;
+    border: 1px solid dodgerblue;
+    border-radius: 15px;
+    margin: 15px auto;
+    background: url('../Navas_store/images/watercan.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+
+    transition-duration: 1s;
+}
+.watercan:hover{
+    transform: scale(1.1);
+}
+
+.footer-box{
+
+     display: flex;
+     justify-content: space-evenly;
+     align-items: center;
+    background-color: black;
+    color: white;
+
+    border: 2px solid aliceblue;
+    height: 200px;
+    width: 100%;
+    padding: 40px;
+    margin-top: 30px;
+}
+.footer-box p{
+    color: white;
+    font-weight: lighter;
+}
+.footer-head{
+    font-size: 30px;
+     font-family: "JetBrains Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+.social ul{
+    display: flex;
+}
+.social ul li{
+    font-size: 20px;
+    
+}
+.whatsapp{
+    color: green;
+    font-size: 20px;
+    border-radius: 50%;
+}
+.instagram{
+    color: purple;
+    font-size: 20px;
+    border-radius: 50%;
+}
+.facebook{
+    color: dodgerblue;
+    font-size: 20px;
+    border-radius: 50%;
+}

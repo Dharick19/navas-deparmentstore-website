@@ -1,0 +1,162 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f7f5;
+}
+
+
+
+
+.nearby-stores {
+    padding: 60px 8%;
+    text-align: center;
+}
+
+
+
+
+.nearby-stores h1 {
+    font-size: 38px;
+    color: #2e7d32;
+    margin-bottom: 10px;
+}
+
+
+
+
+.store-subtitle {
+    font-size: 17px;
+    color: #777;
+    margin-bottom: 35px;
+}
+
+
+
+
+.store-container {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+
+
+
+.store-card {
+    width: 310px;
+    background-color: white;
+    border-radius: 12px;
+    overflow: hidden;
+
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.12);
+
+    text-align: left;
+
+    transition: 0.3s;
+}
+
+
+
+
+.store-card:hover {
+    transform: translateY(-6px);
+
+    box-shadow: 0 8px 22px rgba(0, 0, 0, 0.18);
+}
+
+
+
+.store-card img {
+    width: 100%;
+    height: 190px;
+
+    object-fit: cover;
+}
+
+
+
+
+.store-info {
+    padding: 20px;
+}
+
+
+.store-info h2 {
+    font-size: 21px;
+    color: #2e7d32;
+
+    margin-bottom: 10px;
+}
+
+
+.store-info p {
+    font-size: 14px;
+    color: #666;
+
+    line-height: 1.5;
+
+    margin-bottom: 10px;
+}
+
+
+
+.store-info .location {
+    color: #333;
+    font-weight: bold;
+}
+
+
+
+
+.store-btn {
+    width: 100%;
+
+    padding: 11px;
+
+    border: none;
+
+    border-radius: 6px;
+
+    background-color: #2e7d32;
+
+    color: white;
+
+    font-size: 15px;
+
+    cursor: pointer;
+
+    margin-top: 5px;
+}
+
+
+.store-btn:hover {
+    background-color: #1b5e20;
+}
+
+
+
+/* @media (max-width: 600px) {
+
+    .nearby-stores {
+        padding: 40px 20px;
+    }
+
+
+    .nearby-stores h1 {
+        font-size: 30px;
+    }
+
+
+    .store-card {
+        width: 100%;
+        max-width: 350px;
+    }
+
+} */

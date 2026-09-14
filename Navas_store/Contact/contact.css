@@ -1,0 +1,253 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Asap+Sharp:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+     font-size: 100px;
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: bolder;
+    font-style: normal;
+}
+h2{
+     font-size: 30px;
+     font-family: "JetBrains Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+p{
+      font-family: "Asap Sharp", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+.contact-section {
+
+    width: 100%;
+
+    padding: 70px 8%;
+
+    background-color: #f8faf8;
+
+}
+
+
+
+
+.contact-heading {
+
+    text-align: center;
+
+    margin-bottom: 45px;
+
+}
+
+
+.contact-heading h1 {
+
+    font-size: 40px;
+
+    color: #2e7d32;
+
+    margin-bottom: 10px;
+
+}
+
+
+.contact-heading p {
+
+    font-size: 17px;
+
+    color: #777;
+
+}
+
+
+
+
+.contact-container {
+
+    display: grid;
+
+    grid-template-columns:
+        repeat(4, 1fr);
+
+    gap: 25px;
+
+}
+
+
+
+
+
+.contact-card {
+
+    background-color: #ffffff;
+
+    padding: 35px 20px;
+
+    border-radius: 15px;
+
+    text-align: center;
+
+    box-shadow:
+        0 4px 15px
+        rgba(0, 0, 0, 0.08);
+
+    transition: 0.3s;
+
+}
+
+
+.contact-card:hover {
+
+    transform: translateY(-8px);
+
+    box-shadow:
+        0 10px 25px
+        rgba(0, 0, 0, 0.15);
+
+}
+
+
+
+
+.contact-icon {
+
+    width: 65px;
+
+    height: 65px;
+
+    margin: 0 auto 20px;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+   
+
+    color: white;
+
+    border-radius: 50%;
+
+    font-size: 25px;
+
+}
+.phone{
+     background-image: url('https://i.pinimg.com/736x/4f/3d/75/4f3d7565d4d46af12754246548b8404e.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: cover;
+}
+.mail{
+     background-image: url('https://i.pinimg.com/1200x/03/58/d5/0358d5b4c499b5c25bf0d8675849b191.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: cover;
+}
+.loaction{
+      background-image: url('https://i.pinimg.com/1200x/e8/3a/fc/e83afcd1de480c67d110a301a53a70e5.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: cover;
+}
+.hour{
+      background-image: url('https://i.pinimg.com/736x/32/f4/7f/32f47f06d6d5509239d922102692ff87.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: cover;
+}
+
+.contact-card h2 {
+
+    font-size: 21px;
+
+    color: #2e7d32;
+
+    margin-bottom: 15px;
+
+}
+
+
+
+
+.contact-card p {
+
+    font-size: 14px;
+
+    color: #666;
+
+    line-height: 1.6;
+
+    margin: 4px 0;
+
+}
+
+
+
+.contact-btn {
+
+    display: inline-block;
+
+    margin-top: 18px;
+
+    padding: 10px 20px;
+
+    background-color: aliceblue;
+
+    color: blue;
+
+    text-decoration: none;
+    
+    border-radius: 6px;
+
+    font-size: 14px;
+   font-family: "Asap Sharp", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+
+
+
+    transition: 0.3s;
+
+}
+
+
+.contact-btn:hover {
+
+    background-color: yellowgreen;
+    color: black;
+
+}
+.contact-btn:active{
+    color: #2e7d32;
+}
+.contact-btn:visited{
+    color: black;
+    background-color: yellowgreen;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
