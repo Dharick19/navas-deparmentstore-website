@@ -31,10 +31,11 @@ p{
 .contact-section {
 
     width: 100%;
+    height: 100vh;
 
     padding: 70px 8%;
 
-    background-color: #f8faf8;
+    background-color: whitesmoke;
 
 }
 
@@ -80,6 +81,7 @@ p{
         repeat(4, 1fr);
 
     gap: 25px;
+    
 
 }
 
@@ -232,14 +234,41 @@ p{
 
 }
 .contact-btn:active{
-    color: #2e7d32;
+    color: red;
 }
 .contact-btn:visited{
     color: black;
-    background-color: yellowgreen;
+    background-color: aliceblue
+}
+
+@media (max-width: 599px) {
+
+    .contact-container {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 25px;
+    }
+
 }
 
 
+@media (min-width: 600px) and (max-width: 999.99px) {
+
+    .contact-container {
+        grid-template-columns: repeat(2,1fr);
+        gap: 25px;
+    }
+
+}
+
+
+@media (min-width: 1000px) {
+
+    .contact-container {
+        grid-template-columns: repeat(4, 1fr);
+        gap: 25px;
+    }
+
+}
 
 
 
