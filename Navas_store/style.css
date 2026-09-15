@@ -167,7 +167,7 @@ i{
     border: 0.5px solid white;
     border-radius: 15px;
 
-    background-image: url('../Navas_store/images/supermarket-8656652_1280.jpg');
+    background-image: url('./images/supermarket-8656652_1280.jpg');
     background-repeat: no-repeat;
     background-position: cover;
     background-size: cover;
@@ -181,8 +181,10 @@ i{
 
     height: 100%;
     width: 50%;
-
-   h2{ 
+ 
+  
+   }
+     h2{ 
     
     color: green;
     -webkit-text-stroke: 0.5px white;
@@ -191,8 +193,6 @@ i{
     font-optical-sizing: auto;
     font-weight: bolder;
     font-style: normal;
-   }
-  
    }
    /* .order_now{
 
@@ -263,25 +263,25 @@ i{
   font-weight: 400;
   font-style: normal;
 }
-.Main{
-
+.Dash_text2 .Main{
       color: brown;
     -webkit-text-stroke: 1px white;
     font-family: "Caacupe One", sans-serif;
    font-size: 100px;
   font-weight: 400;
   font-style: normal;
-    animation: discount 2s ease-in-out infinite;
+    animation: discount 3s ease-in-out infinite ;
+    
 }
 @keyframes discount {
-    from {
-        opacity: 0;
-        transform: translateX(500px);
+    0% {
+        opacity: 0; 
+        transform: translateX(100%);
     }
 
-    to {
-        opacity: 1;
-        transform: translateX(0);
+    100% {
+         opacity: 1; 
+        transform: translateX(0%);
     }
 }
 /* .Main:hover{
