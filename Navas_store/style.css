@@ -417,7 +417,7 @@ button{
     border: 1px solid dodgerblue;
     border-radius: 15px;
     margin: 15px auto;
-    background: url('../Navas_store/images/watercan.png');
+    background: url('./images/watercan.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: 100% 100%;
