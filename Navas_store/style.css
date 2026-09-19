@@ -18,17 +18,22 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
-body{
-    margin-top: 80px;
-    background-color: whitesmoke;
-    /* background-image: url("https://i.pinimg.com/736x/b4/c3/5f/b4c35f3ef9422141bbcc96225cff89fc.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 100% 100%;
-     */
-
-    
+html {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
 }
+
+body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    padding-top: 70px;
+    background-color: whitesmoke;
+    overflow-x: hidden;
+}
+
 nav{
     
     position: fixed;
@@ -475,3 +480,43 @@ button{
     font-size: 20px;
     border-radius: 50%;
 }
+
+@media (max-width: 599px) {
+
+  .footer-box {
+        height: auto;
+        justify-content: center;
+        flex-direction: column;
+        padding: 20px;
+        gap: 15px;
+
+    }
+ 
+    .footer-head {
+        font-size: 20px;
+    }
+ 
+    .footer-box p {
+        font-size: 12px;
+    }
+    .watercan{
+        margin: 0 auto;
+    }
+}
+
+
+
+
+@media (min-width: 600px) and (max-width: 999.99px) {
+
+ 
+
+}
+
+
+@media (min-width: 1000px) {
+
+  
+
+}
+
